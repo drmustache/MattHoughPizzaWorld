@@ -1,0 +1,25 @@
+{
+    "cities": [
+        {
+            "location":"Chicago",
+            "data": {
+                "link":"/chicago",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus odio est, ac lobortis nulla fermentum vel. Vivamus ultrices nulla eu ornare luctus. Ut velit lectus, tempor a fringilla sit amet, fermentum convallis lorem."
+            }
+        },
+        {
+            "location":"New York",
+            "data": {
+                "link":"/newYork",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus odio est, ac lobortis nulla fermentum vel. Vivamus ultrices nulla eu ornare luctus. Ut velit lectus, tempor a fringilla sit amet, fermentum convallis lorem."
+            }
+        },
+        {
+            "location":"San Francisco",
+            "data": {
+                "link":"/sanFrancisco",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus odio est, ac lobortis nulla fermentum vel. Vivamus ultrices nulla eu ornare luctus. Ut velit lectus, tempor a fringilla sit amet, fermentum convallis lorem."
+            }
+        }
+    ]
+}

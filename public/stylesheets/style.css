@@ -1,0 +1,192 @@
+body {
+  padding: 0;
+  margin:0;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/*Nav CSS*********/
+.navBG{
+  background: #000;
+  width: 100%;
+  height:40px;
+  margin:0;
+  padding:0;
+}
+
+.navSec {
+  margin: 0 auto;
+  width:800px;
+}
+
+.blockNav {
+  float:left;
+  list-style-type:none;
+
+  margin-left:10px;
+  margin-top:10px;
+}
+ 
+.blockNav a {
+  color: #FFA07A;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+.feat-item-nav {
+  color: #ccc;
+}
+
+/*body***********/
+.wrapper {
+  width:800px;
+  margin: 0 auto;
+  margin-bottom:40px;
+  position:relative;
+  height:100%;
+}
+
+.block {
+  display:block;
+  width:100%;
+}
+
+.blockRow {
+  display:block;
+}
+
+.float {
+  float:left;
+}
+
+.feat-item {
+  margin-left:25px;
+  width:200px;
+  height:280px;
+  background:#f4f4f4;
+  padding:20px;
+  position:relative;
+}
+
+.feat-item-m {
+  margin-left:25px;
+  width:200px;
+  height:280px;
+  background:#f4f4f4;
+  padding:20px;
+  position:relative;
+}
+
+.feat-item:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+/*buttons*/
+.btn {
+  padding:10px;
+  background:#333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  position:relative;
+}
+
+.btn:hover {
+  padding:10px;
+  background:#ccc;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+
+/*Pizza Display format*/
+#rowOne {
+    width: 100%;
+    height: 160px;
+}
+#rowTwo {
+    width: 100%;
+    height:100%;
+}
+#rowThree {
+    width: 100%;
+    position: fixed;
+    clear: both;
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:0px;
+    margin-bottom: 115px;
+}
+#container {
+    height: 100%;
+}
+
+
+
+
+/*MOBILE ********************/
+@media(max-width:660px) {
+  #rowOne {
+      width: 100%;
+      height: 100%;
+      display:block;
+  }
+  #rowTwo {
+      width: 100%;
+      height: 100%;
+      display:block;
+      margin-top:-70px;
+  }
+  #rowThree {
+      width: 100%;
+      height: 100%;
+      position:relative;
+      padding-top:100px;
+  }
+
+  .feat-item {
+    border-bottom: 1px solid #ccc;
+    width:100%;
+    height:100%;
+    background:#f4f4f4;
+    padding:10px;
+    position:relative;
+    margin-left:0px;
+  }
+
+  .feat-item-m {
+    border-bottom: 1px solid #ccc;
+    width:100%;
+    height:100%;
+    background:#f4f4f4;
+    padding:10px;
+    position:relative;
+    margin-left:0px;
+  }
+
+  p {
+    width:100%;
+  }
+  h1 {
+    width:100%;
+  }
+
+  #container {
+      height: 100%;
+      width:100%;
+  }
+
+  .wrapper {
+    width:100%;
+    padding:0px;
+  }
+
+}
+

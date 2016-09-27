@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html ng-app="pW" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PizzaWorld</title>
+    <link href="stylesheets/style.css" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <nav class="navBG">
+        <ul class="navSec">
+            <li class="blockNav"><a href="#/">PizzaWorld</a></li>
+        </ul>
+    </nav>
+    
+        <div ng-view>
+            <!--views-->
+        </div>
+
+    <!--scripts-->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/mainCtrl.controller.js"></script>
+    <script src="controllers/chicagoCtrl.controller.js"></script>
+    <script src="controllers/newYorkCtrl.controller.js"></script>
+    <script src="controllers/sanFranCtrl.controller.js"></script>
+  </body>
+</html>

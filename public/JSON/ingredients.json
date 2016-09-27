@@ -1,0 +1,21 @@
+{
+    "ingredients": {
+        "vegetables": {
+            "mushrooms":"Mushrooms",
+            "onions":"Onions",
+            "opinach":"Spinach",
+            "blackOlives":"Black olives",
+            "greenPeppers":"Green peppers",
+            "pineapple":"Pineapple"
+        },
+        "meats": {
+            "pepperoni":"Pepperoni",
+            "sausage":"Sausage",
+            "ham":"Ham"
+        },
+        "other": {
+            "extraCheese":"Extra Cheese",
+            "deepDish":"Deep Dish"
+        }
+    }
+}

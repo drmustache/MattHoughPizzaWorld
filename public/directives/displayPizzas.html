@@ -1,0 +1,16 @@
+<div id="rowTwo">
+    <div class="wrapper">
+        <div id="container" class="block">
+            <div class="float feat-item" ng-repeat="obj in PizzaType" ng-click="accordion.current = obj.data.name">
+                    <h3>{{ obj.data.name }}</h3>
+                    <p> {{ obj.data.type }} </p>
+                    <p> {{ obj.data.description }} </p>
+                    <div ng-show="accordion.current == obj.data.name">
+                        <h4>Toppings:</h4>
+                        <p>{{ obj.data.ingredients }}</p>
+                    </div>
+                    <br>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div id="rowTwo">
+    <div class="wrapper">
+        <div id="container" class="block">
+            <div class="float feat-item-m" ng-repeat="obj in cities.cities">
+                    <h3>{{ obj.location }}</h3>
+                    <p> {{ obj.data.description }} </p>
+                    <br>
+                    <a class="btn" href="#{{ obj.data.link }}">{{ obj.location }}</a>
+                    <br>
+            </div> 
+        </div>
+    </div>
+</div>
